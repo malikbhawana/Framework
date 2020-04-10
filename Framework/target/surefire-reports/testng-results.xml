@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up Reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done - Test can be Started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and Running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed >>> Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="115880" started-at="2020-04-10T09:50:42Z" finished-at="2020-04-10T09:52:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="115880" started-at="2020-04-10T09:50:42Z" finished-at="2020-04-10T09:52:38Z">
+      <class name="com.pymidol.testcases.LoginTestPymidol">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.pymidol.testcases.LoginTestPymidol@12843fce]" name="setUpSuite" is-config="true" duration-ms="1979" started-at="2020-04-10T09:50:40Z" finished-at="2020-04-10T09:50:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done - Test can be Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pymidol.testcases.LoginTestPymidol@12843fce]" name="setup" is-config="true" duration-ms="11347" started-at="2020-04-10T09:50:42Z" finished-at="2020-04-10T09:50:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.pymidol.testcases.LoginTestPymidol@12843fce]" name="loginApp" duration-ms="103505" started-at="2020-04-10T09:50:53Z" finished-at="2020-04-10T09:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.pymidol.testcases.LoginTestPymidol@12843fce]" name="tearDownMethod" is-config="true" duration-ms="472" started-at="2020-04-10T09:52:37Z" finished-at="2020-04-10T09:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestPymidol.loginApp()[pri:1, instance:com.pymidol.testcases.LoginTestPymidol@12843fce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed >>> Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pymidol.testcases.LoginTestPymidol@12843fce]" name="tearDown" is-config="true" duration-ms="542" started-at="2020-04-10T09:52:37Z" finished-at="2020-04-10T09:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pymidol.testcases.LoginTestPymidol -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
