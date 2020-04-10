@@ -31,11 +31,9 @@ public class LoginTestPymidol extends BaseClass {
 	/* @Test(priority=2)
 	public void loginApp2()
 	{	
-		
 		logger=report.createTest("Logout");
 		
 		logger.fail("Logout Failed");
-	
 	} */
 
 }
