@@ -9,10 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">115,880</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">117,368</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.pymidol.testcases.LoginTestPymidol</td><td><a href="#m0">loginApp</a></td><td rowspan="1">1586512253979</td><td rowspan="1">103505</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.pymidol.testcases.LoginTestPymidol</td><td><a href="#m0">tearDownMethod</a></td><td rowspan="1">1586612326495</td><td rowspan="1">127</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.pymidol.testcases.LoginTestPymidol</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1586612326631</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.pymidol.testcases.LoginTestPymidol</td><td><a href="#m2">loginApp</a></td><td rowspan="1">1586612221090</td><td rowspan="1">105404</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.pymidol.testcases.LoginTestPymidol#loginApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.pymidol.testcases.LoginTestPymidol#tearDownMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=loginApp status=SUCCESS method=LoginTestPymidol.loginApp()[pri:1, instance:com.pymidol.testcases.LoginTestPymidol@12843fce] output={null}]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Test is about to end</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: Modal dialog present with text: An error was thrown and caught.
+Error: &apos;XPathResult&apos; is undefined
+Line: 1
+URL: https://www.pymidol.com/pymidol_war/ymc_common/2.1.4a/js/dhtmlx/dhtmlxGrid/codebase/dhtmlxcommon_ymc.js
+: An error was thrown and caught.
+Error: &apos;XPathResult&apos; is undefined
+Line: 1
+URL: https://www.pymidol.com/pymidol_war/ymc_common/2.1.4a/js/dhtmlx/dhtmlxGrid/codebase/dhtmlxcommon_ymc.js
+
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:09:30&apos;
+System info: host: &apos;FA006738&apos;, ip: &apos;10.167.62.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21104/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a478fd38-4dc6-4f2b-9fb7-4bddfb948dd6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.pymidol.utility.Helper.captureScreenshot(Helper.java:20)
+	at com.pymidol.pages.BaseClass.tearDownMethod(BaseClass.java:86)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.pymidol.testcases.LoginTestPymidol#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.pymidol.testcases.LoginTestPymidol#loginApp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

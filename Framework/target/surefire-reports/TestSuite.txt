@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 119.828 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 119.582 s <<< FAILURE! - in TestSuite
+com.pymidol.testcases.LoginTestPymidol.tearDownMethod  Time elapsed: 105.541 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+Modal dialog present with text: An error was thrown and caught.
+Error: 'XPathResult' is undefined
+Line: 1
+URL: https://www.pymidol.com/pymidol_war/ymc_common/2.1.4a/js/dhtmlx/dhtmlxGrid/codebase/dhtmlxcommon_ymc.js
+: An error was thrown and caught.
+Error: 'XPathResult' is undefined
+Line: 1
+URL: https://www.pymidol.com/pymidol_war/ymc_common/2.1.4a/js/dhtmlx/dhtmlxGrid/codebase/dhtmlxcommon_ymc.js
+
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'FA006738', ip: '10.167.62.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21104/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a478fd38-4dc6-4f2b-9fb7-4bddfb948dd6
+
